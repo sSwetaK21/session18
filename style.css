@@ -1,0 +1,150 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    max-width: 1080px;
+    margin: 0px auto;
+}
+.cont1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header{
+    padding: 10px 0px;
+    background-color: #ffad99;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.brand{
+    color: black;
+    padding: 0px 10px;
+
+}
+.profile a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+.profile a:hover{
+    color: #eb3434;
+}
+.profile .bx{
+    font-size: 20px;
+}
+.brand:hover{
+    color: white;
+    background-color: #eb3434;
+    border-radius: 50px;
+    padding: 4px 12px;
+}
+
+/* section here */
+
+.aside{
+    float: left;
+    width: 200px;
+    padding: 20px;
+    border-radius: 25px;
+
+    background-color: #ffad99;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px 0px; */
+
+}
+.main-sect {
+    padding: 40px 0px;
+}
+.sidebar a, .last-box a {
+    padding: 6px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.sidebar .nbx{
+    margin: 10px;
+}
+.sbx{
+    font-size: 23px;
+    margin: 10px;
+
+}
+.last-box:hover{
+    background-color: #eb3434;
+    border-radius: 50px;
+
+}
+.last-box a:hover{
+    color: white;
+
+}
+.sidebar a:hover{
+    border: 2px solid #eb3434;
+    border-radius: 50px;
+    color: #eb3434;
+}
+
+/* another section */
+
+.grid {
+    /* width: auto;
+    margin: 20px;
+    height: 120px; */
+    width: 200px;
+    margin: 20px;
+    height: 160px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.rightbar {
+    margin-left: 280px;
+    background-color: #ffad99;
+    border-radius: 25px;
+    height: 490px;
+
+
+}
+.title {
+    padding: 10px 0px 0px 40px;
+    font-size: 34px;
+}
+
+/* footer here */
+.footer {
+    padding: 10px;
+    background-color: #ffad99;
+}
+.foot-brand {
+    font-size: 18px;
+}
+.foot-brand:hover{
+    color: #eb3434;
+}
+
+.navfoot a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.navfoot a:hover{
+    color: #eb3434;
+    font-size: 23px;
+}
